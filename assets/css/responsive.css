@@ -1,0 +1,54 @@
+@media (max-width:992px){
+
+.hero{
+    text-align:center;
+}
+
+.hero-image,
+.about-image{
+    width:300px;
+}
+
+.stats{
+    justify-content:center;
+}
+
+}
+
+@media (max-width:768px){
+
+.section-title{
+    font-size:2rem;
+}
+
+.skill-card{
+    height:160px;
+}
+
+.project-image{
+    height:200px;
+}
+
+.stats{
+    flex-direction:column;
+    gap:20px;
+}
+
+}
+
+@media (max-width:576px){
+
+.hero-image,
+.about-image{
+    width:240px;
+}
+
+.social-icons{
+    justify-content:center;
+}
+
+.project-buttons{
+    flex-direction:column;
+}
+
+}
