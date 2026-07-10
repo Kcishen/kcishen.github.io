@@ -34,3 +34,18 @@
         font-size: 32px;
     }
 }
+@media (max-width:768px){
+
+.hero-image{
+
+width:250px;
+
+}
+
+.project-image{
+
+height:180px;
+
+}
+
+}
