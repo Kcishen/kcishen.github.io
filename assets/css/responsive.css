@@ -1,54 +1,36 @@
-@media (max-width:992px){
+/* ==========================
+   RESPONSIVE / MEDIA QUERIES
+   NOTE: original code had no media queries.
+   These are conservative additions to keep things
+   from looking broken on smaller screens - adjust freely.
+========================== */
 
-.hero{
-    text-align:center;
+@media (max-width: 991px) {
+    .hero-image {
+        width: 280px;
+        margin-top: 40px;
+    }
+
+    .about-image {
+        width: 280px;
+    }
+
+    .stats {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
 }
 
-.hero-image,
-.about-image{
-    width:300px;
-}
+@media (max-width: 576px) {
+    .section-title {
+        font-size: 1.9rem;
+    }
 
-.stats{
-    justify-content:center;
-}
+    .stats {
+        gap: 20px;
+    }
 
-}
-
-@media (max-width:768px){
-
-.section-title{
-    font-size:2rem;
-}
-
-.skill-card{
-    height:160px;
-}
-
-.project-image{
-    height:200px;
-}
-
-.stats{
-    flex-direction:column;
-    gap:20px;
-}
-
-}
-
-@media (max-width:576px){
-
-.hero-image,
-.about-image{
-    width:240px;
-}
-
-.social-icons{
-    justify-content:center;
-}
-
-.project-buttons{
-    flex-direction:column;
-}
-
+    .stat h2 {
+        font-size: 32px;
+    }
 }

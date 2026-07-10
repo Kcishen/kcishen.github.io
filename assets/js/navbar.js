@@ -1,19 +1,8 @@
-// navbar.js
-// Simple navbar helpers: collapse on link click and basic active state.
-document.addEventListener('DOMContentLoaded', () => {
-	const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
-	const bsCollapseEl = document.querySelector('.navbar-collapse');
-
-	navLinks.forEach(link => {
-		link.addEventListener('click', () => {
-			// Collapse navbar on mobile after clicking a link
-			if (bsCollapseEl && bsCollapseEl.classList.contains('show') && typeof bootstrap !== 'undefined') {
-				const bsCollapse = new bootstrap.Collapse(bsCollapseEl);
-				bsCollapse.hide();
-			}
-			// set active class
-			navLinks.forEach(l => l.classList.remove('active'));
-			link.classList.add('active');
-		});
-	});
-});
+// No custom navbar logic exists yet.
+// The mobile menu toggle is currently handled entirely by
+// Bootstrap's built-in data-bs-toggle="collapse" attribute
+// on the navbar button in index.html - nothing to move here.
+//
+// If you later want custom behavior (e.g. auto-closing the
+// menu after clicking a link, or changing navbar style on scroll),
+// add it here.

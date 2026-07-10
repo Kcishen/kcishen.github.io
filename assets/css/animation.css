@@ -1,65 +1,37 @@
-.hero-image{
-    animation:float 4s ease-in-out infinite;
+/* ==========================
+   ANIMATIONS
+========================== */
+
+.hero-image {
+    animation: float 4s ease-in-out infinite;
 }
 
-@keyframes float{
-    0%{transform:translateY(0);}
-    50%{transform:translateY(-20px);}
-    100%{transform:translateY(0);}
-}
-
-.about-image{
-    transition:.4s;
-}
-
-.about-image:hover{
-    transform:translateY(-10px);
-}
-
-.skill-card{
-    transition:.35s;
-}
-
-.skill-card:hover{
-    transform:translateY(-10px);
-    border-color:#38BDF8;
-    box-shadow:0 20px 35px rgba(56,189,248,.25);
-}
-
-.project-card{
-    transition:.35s;
-}
-
-.project-card:hover{
-    transform:translateY(-10px);
-    box-shadow:0 20px 40px rgba(56,189,248,.25);
-}
-
-.social-icons a{
-    transition:.3s;
-}
-
-.social-icons a:hover{
-    transform:translateY(-8px);
-    background:#38bdf8;
-    color:white;
-}
-
-.scroll-indicator{
-    position:absolute;
-    bottom:30px;
-    left:50%;
-    transform:translateX(-50%);
-    text-align:center;
-    animation:bounce 2s infinite;
-}
-
-@keyframes bounce{
-    0%,100%{
-        transform:translate(-50%,0);
+@keyframes float {
+    0% {
+        transform: translateY(0);
     }
 
-    50%{
-        transform:translate(-50%,-15px);
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.scroll-indicator {
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translate(-50%, 0);
+    }
+
+    50% {
+        transform: translate(-50%, -15px);
     }
 }

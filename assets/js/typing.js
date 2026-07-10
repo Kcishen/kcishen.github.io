@@ -1,8 +1,50 @@
-// The file `c:\Users\OJT IT\kcishen.github.io\assets\js\typing.js` exists, but is empty
-// This file is intentionally minimal; the main typing animation
-// is implemented in `assets/js/script.js`.
+const text = [
 
-// Keep this file present to avoid 404s when included from index.html.
-document.addEventListener('DOMContentLoaded', () => {
-	// no-op fallback
-});
+    "Computer Engineering Student",
+
+    "Full Stack Web Developer",
+
+    "Android Developer",
+
+    "IoT Developer",
+
+    "UI/UX Enthusiast"
+
+];
+
+let count = 0;
+let index = 0;
+let current = "";
+let letter = "";
+
+(function type() {
+
+    if (count === text.length) {
+
+        count = 0;
+
+    }
+
+    current = text[count];
+
+    letter = current.slice(0, ++index);
+
+    document.getElementById("typing").textContent = letter;
+
+    if (letter.length === current.length) {
+
+        count++;
+
+        index = 0;
+
+        setTimeout(type, 1500);
+
+    }
+
+    else {
+
+        setTimeout(type, 100);
+
+    }
+
+})();
