@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Helmet Recovery System | John Erick Bejucos</title>
+    <title>Helmet Recovery System | Case Study | John Erick Bejucos</title>
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -31,6 +31,9 @@
     <link rel="stylesheet" href="../assets/css/components.css">
     <link rel="stylesheet" href="../assets/css/animation.css">
     <link rel="stylesheet" href="../assets/css/responsive.css">
+
+    <!-- Case Study specific CSS -->
+    <link rel="stylesheet" href="../assets/css/case-study.css">
 
 </head>
 
@@ -89,6 +92,8 @@ data-bs-target="#navbar">
 
 <div class="col-lg-6" data-aos="fade-right">
 
+<p class="hello">CAPSTONE PROJECT · CASE STUDY</p>
+
 <h1 class="display-4 fw-bold">
 
 Helmet Recovery System
@@ -100,6 +105,30 @@ Helmet Recovery System
 A secure web application designed to help motorcycle riders recover lost or stolen helmets through QR Code verification, OCR technology, GPS location tracking, and an integrated marketplace.
 
 </p>
+
+<div class="meta-bar">
+
+<div class="meta-item">
+<span class="meta-label">Role</span>
+<span class="meta-value">Full-Stack Developer</span>
+</div>
+
+<div class="meta-item">
+<span class="meta-label">Type</span>
+<span class="meta-value">Solo Capstone Project</span>
+</div>
+
+<div class="meta-item">
+<span class="meta-label">Platform</span>
+<span class="meta-value">Responsive Web App</span>
+</div>
+
+<div class="meta-item">
+<span class="meta-label">Status</span>
+<span class="meta-value">Completed</span>
+</div>
+
+</div>
 
 <div class="mt-4">
 
@@ -130,6 +159,50 @@ Back to Portfolio
 class="img-fluid rounded shadow"
 alt="Helmet Recovery System">
 
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =========================
+        HIGHLIGHTS STRIP
+========================= -->
+
+<section class="highlights-strip">
+
+<div class="container">
+
+<div class="row">
+
+<div class="col-md-3 col-6">
+<div class="highlight-pill">
+<i class="fas fa-qrcode"></i>
+<span>QR + OCR ownership verification</span>
+</div>
+</div>
+
+<div class="col-md-3 col-6">
+<div class="highlight-pill">
+<i class="fas fa-people-arrows"></i>
+<span>Automatic lost &amp; found matching</span>
+</div>
+</div>
+
+<div class="col-md-3 col-6">
+<div class="highlight-pill">
+<i class="fas fa-store"></i>
+<span>Integrated marketplace &amp; checkout</span>
+</div>
+</div>
+
+<div class="col-md-3 col-6">
+<div class="highlight-pill">
+<i class="fas fa-user-shield"></i>
+<span>Role-based admin panel</span>
+</div>
 </div>
 
 </div>
@@ -332,11 +405,77 @@ alt="Helmet Recovery System">
 
 </section>
 
+<!-- =========================
+        MY PROCESS
+========================= -->
+
+<section class="py-5">
+
+<div class="container">
+
+<div class="text-center mb-5" data-aos="fade-up">
+
+<h6 class="section-subtitle">
+
+MY PROCESS
+
+</h6>
+
+<h2 class="section-title">
+
+From Problem to Working System
+
+</h2>
+
+<p class="about-text">
+How the project moved from an identified problem to a deployed, role-based platform.
+</p>
+
+</div>
+
+<div class="process-timeline">
+
+<div class="process-step" data-aos="fade-up">
+<div class="step-number">1</div>
+<h4>Research & Planning</h4>
+<p>Studied how existing lost-and-found groups and marketplaces handle ownership claims, and confirmed the core gap: recovered helmets rarely reach their owners because there's no reliable way to prove who they belong to.</p>
+</div>
+
+<div class="process-step" data-aos="fade-up">
+<div class="step-number">2</div>
+<h4>System Design</h4>
+<p>Mapped the data model connecting users, helmets, reports, and matches, and planned how QR codes and OCR-extracted serial numbers would tie a physical helmet to a verified digital record.</p>
+</div>
+
+<div class="process-step" data-aos="fade-up">
+<div class="step-number">3</div>
+<h4>Development</h4>
+<p>Built the platform in PHP and MySQL, implementing the reporting, matching, and marketplace modules incrementally, with Bootstrap handling the responsive front end.</p>
+</div>
+
+<div class="process-step" data-aos="fade-up">
+<div class="step-number">4</div>
+<h4>Testing & Refinement</h4>
+<p>Walked through the full recovery flow — report, match, verify, message — as different user roles to catch validation and permission gaps before treating any module as finished.</p>
+</div>
+
+<div class="process-step" data-aos="fade-up">
+<div class="step-number">5</div>
+<h4>Deployment & Handoff</h4>
+<p>Packaged the system as a complete capstone deliverable, including the admin tools needed to verify reports, manage users, and operate the marketplace going forward.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
 <!--============================
         THE SOLUTION
 =============================-->
 
-<section class="py-5">
+<section class="about-section py-5">
 
 <div class="container">
 
@@ -439,7 +578,7 @@ Users can purchase helmets, GPS trackers, accessories, and authenticity stickers
         FEATURES
 =============================-->
 
-<section class="about-section py-5">
+<section class="py-5">
 
 <div class="container">
 
@@ -580,7 +719,7 @@ Purchase helmets and motorcycle accessories.
         SYSTEM SCREENSHOTS
 =============================-->
 
-<section class="screenshots-section py-5">
+<section class="about-section py-5">
 
 <div class="container">
 
@@ -591,297 +730,315 @@ SYSTEM PREVIEW
 </h6>
 
 <h2 class="section-title">
-Application Screenshots
+Application Walkthrough
 </h2>
 
 <p class="about-text">
 
-Explore the major pages and functionalities of the Helmet Recovery System.
+A closer look at the platform, organized by the journey a helmet takes from being lost to being recovered.
 
 </p>
 
+</div>
+
+<!-- CORE EXPERIENCE -->
+<div class="screenshot-category">
+
+<div class="category-header">
+<i class="fas fa-house"></i>
+<div>
+<h4>Core Experience</h4>
+<span>Landing page, dashboard, and helmet registration</span>
+</div>
 </div>
 
 <div class="row g-4">
 
 <div class="col-lg-4 col-md-6">
-
-<div class="project-card">
-
-<img src="../assets/images/projects/helmet/homepage.png"
-class="project-image">
-
-<div class="project-content">
-
-<h4>Home Page</h4>
-
-<p>
-Landing page introducing the Helmet Recovery platform with navigation to all services.
-</p>
-
+<div class="browser-frame">
+<div class="browser-bar"><span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span></div>
+<img src="../assets/images/projects/helmet/homepage.png" class="project-image" alt="Homepage">
 </div>
-
+<div class="screenshot-caption">
+<h4>Homepage</h4>
+<p>Landing page introducing the platform and routing users to reporting, the marketplace, and their account.</p>
 </div>
-
 </div>
 
 <div class="col-lg-4 col-md-6">
-
-<div class="project-card">
-
-<img src="../assets/images/projects/helmet/login.png"
-class="project-image">
-
-<div class="project-content">
-
-<h4>Login</h4>
-
-<p>
-Secure login page for riders and administrators.
-</p>
-
+<div class="browser-frame">
+<div class="browser-bar"><span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span></div>
+<img src="../assets/images/projects/helmet/dashboard.png" class="project-image" alt="User dashboard">
 </div>
-
-</div>
-
-</div>
-
-<div class="col-lg-4 col-md-6">
-
-<div class="project-card">
-
-<img src="../assets/images/projects/helmet/register.png"
-class="project-image">
-
-<div class="project-content">
-
-<h4>Register</h4>
-
-<p>
-Create a new Helmet Recovery account with email verification.
-</p>
-
-</div>
-
-</div>
-
-</div>
-<div class="col-lg-4 col-md-6">
-
-<div class="project-card">
-
-<img src="../assets/images/projects/helmet/dashboard.png"
-class="project-image">
-
-<div class="project-content">
-
+<div class="screenshot-caption">
 <h4>User Dashboard</h4>
-
-<p>
-Central dashboard where users can manage reports, helmets, and purchases.
-</p>
-
+<p>Central hub where users track their reports, matches, and marketplace orders in one place.</p>
+</div>
 </div>
 
-</div>
-
-</div>
 <div class="col-lg-4 col-md-6">
+<div class="browser-frame">
+<div class="browser-bar"><span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span></div>
+<img src="../assets/images/projects/helmet/register-helmet.png" class="project-image" alt="Register a helmet">
+</div>
+<div class="screenshot-caption">
+<h4>Register a Helmet</h4>
+<p>Owners link a helmet to their account and generate its unique QR Code before it's ever lost.</p>
+</div>
+</div>
 
-<div class="project-card">
+</div>
 
-<img src="../assets/images/projects/helmet/report-lost.png"
-class="project-image">
+</div>
 
-<div class="project-content">
+<!-- ACCOUNT & SECURITY -->
+<div class="screenshot-category">
 
+<div class="category-header">
+<i class="fas fa-user-shield"></i>
+<div>
+<h4>Account &amp; Security</h4>
+<span>Authentication and account management</span>
+</div>
+</div>
+
+<div class="row g-4">
+
+<div class="col-lg-4 col-md-6">
+<div class="browser-frame">
+<div class="browser-bar"><span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span></div>
+<img src="../assets/images/projects/helmet/login.png" class="project-image" alt="Login page">
+</div>
+<div class="screenshot-caption">
+<h4>Login</h4>
+<p>Secure sign-in for riders and administrators, gating access to reporting and admin tools.</p>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6">
+<div class="browser-frame">
+<div class="browser-bar"><span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span></div>
+<img src="../assets/images/projects/helmet/register.png" class="project-image" alt="Registration page">
+</div>
+<div class="screenshot-caption">
+<h4>Create Account</h4>
+<p>New riders register with the details needed to verify their identity later during recovery.</p>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6">
+<div class="browser-frame">
+<div class="browser-bar"><span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span></div>
+<img src="../assets/images/projects/helmet/account-setting.png" class="project-image" alt="Account settings">
+</div>
+<div class="screenshot-caption">
+<h4>Account Settings</h4>
+<p>Users manage their profile details and keep their contact information current for match notifications.</p>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6">
+<div class="browser-frame">
+<div class="browser-bar"><span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span></div>
+<img src="../assets/images/projects/helmet/reset-deletion.png" class="project-image" alt="Password reset and account deletion">
+</div>
+<div class="screenshot-caption">
+<h4>Password Reset &amp; Account Deletion</h4>
+<p>Self-service account recovery and deletion, handled without needing to contact an admin directly.</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<!-- LOST & FOUND RECOVERY -->
+<div class="screenshot-category">
+
+<div class="category-header">
+<i class="fas fa-helmet-safety"></i>
+<div>
+<h4>Lost &amp; Found Recovery</h4>
+<span>The core reporting and matching workflow</span>
+</div>
+</div>
+
+<div class="row g-4">
+
+<div class="col-lg-4 col-md-6">
+<div class="browser-frame">
+<div class="browser-bar"><span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span></div>
+<img src="../assets/images/projects/helmet/report-lost.png" class="project-image" alt="Report a lost helmet">
+</div>
+<div class="screenshot-caption">
 <h4>Report Lost Helmet</h4>
-
-<p>
-Submit complete information regarding a lost motorcycle helmet.
-</p>
-
+<p>Riders submit a detailed lost report with photos, description, and last known location.</p>
 </div>
-
-</div>
-
 </div>
 
 <div class="col-lg-4 col-md-6">
-
-<div class="project-card">
-
-<img src="../assets/images/projects/helmet/report-found.png"
-class="project-image">
-
-<div class="project-content">
-
+<div class="browser-frame">
+<div class="browser-bar"><span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span></div>
+<img src="../assets/images/projects/helmet/report-found.png" class="project-image" alt="Report a found helmet">
+</div>
+<div class="screenshot-caption">
 <h4>Report Found Helmet</h4>
-
-<p>
-Allow honest citizens to report recovered helmets.
-</p>
-
+<p>Finders log a helmet they've recovered so it can be checked against open lost reports.</p>
 </div>
-
-</div>
-
 </div>
 
 <div class="col-lg-4 col-md-6">
+<div class="browser-frame">
+<div class="browser-bar"><span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span></div>
+<img src="../assets/images/projects/helmet/mylost.png" class="project-image" alt="My lost reports">
+</div>
+<div class="screenshot-caption">
+<h4>My Lost Reports</h4>
+<p>Users track the status of every helmet they've reported lost from one list.</p>
+</div>
+</div>
 
-<div class="project-card">
+<div class="col-lg-4 col-md-6">
+<div class="browser-frame">
+<div class="browser-bar"><span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span></div>
+<img src="../assets/images/projects/helmet/myfound.png" class="project-image" alt="My found reports">
+</div>
+<div class="screenshot-caption">
+<h4>My Found Reports</h4>
+<p>Finders keep track of the helmets they've reported and their matching status.</p>
+</div>
+</div>
 
-<img src="../assets/images/projects/helmet/shop.png"
-class="project-image">
+<div class="col-lg-4 col-md-6">
+<div class="browser-frame">
+<div class="browser-bar"><span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span></div>
+<img src="../assets/images/projects/helmet/matches.png" class="project-image" alt="Potential matches">
+</div>
+<div class="screenshot-caption">
+<h4>Potential Matches</h4>
+<p>The system compares lost and found reports and surfaces likely matches automatically.</p>
+</div>
+</div>
 
-<div class="project-content">
+<div class="col-lg-4 col-md-6">
+<div class="browser-frame">
+<div class="browser-bar"><span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span></div>
+<img src="../assets/images/projects/helmet/matchmessage.png" class="project-image" alt="Match notification and messaging">
+</div>
+<div class="screenshot-caption">
+<h4>Match Notification</h4>
+<p>Both parties are notified the moment a likely match is found, with messaging to coordinate the handoff.</p>
+</div>
+</div>
 
+</div>
+
+</div>
+
+<!-- MARKETPLACE -->
+<div class="screenshot-category">
+
+<div class="category-header">
+<i class="fas fa-store"></i>
+<div>
+<h4>Marketplace</h4>
+<span>Shopping for genuine helmets and accessories</span>
+</div>
+</div>
+
+<div class="row g-4">
+
+<div class="col-lg-4 col-md-6">
+<div class="browser-frame">
+<div class="browser-bar"><span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span></div>
+<img src="../assets/images/projects/helmet/shop.png" class="project-image" alt="Shop">
+</div>
+<div class="screenshot-caption">
 <h4>Helmet Shop</h4>
-
-<p>
-Marketplace offering genuine helmets and motorcycle accessories.
-</p>
-
+<p>Browse genuine helmets, GPS trackers, and authenticity stickers from a single storefront.</p>
 </div>
-
-</div>
-
 </div>
 
 <div class="col-lg-4 col-md-6">
-
-<div class="project-card">
-
-<img src="../assets/images/projects/helmet/cart.png"
-class="project-image">
-
-<div class="project-content">
-
+<div class="browser-frame">
+<div class="browser-bar"><span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span></div>
+<img src="../assets/images/projects/helmet/cart.png" class="project-image" alt="Shopping cart">
+</div>
+<div class="screenshot-caption">
 <h4>Shopping Cart</h4>
-
-<p>
-Review products before proceeding to checkout.
-</p>
-
+<p>Review selected items and quantities before proceeding to checkout.</p>
 </div>
-
-</div>
-
 </div>
 
 <div class="col-lg-4 col-md-6">
+<div class="browser-frame">
+<div class="browser-bar"><span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span></div>
+<img src="../assets/images/projects/helmet/checkout.png" class="project-image" alt="Checkout">
+</div>
+<div class="screenshot-caption">
+<h4>Checkout</h4>
+<p>A straightforward checkout flow with an order summary before the purchase is confirmed.</p>
+</div>
+</div>
 
-<div class="project-card">
+</div>
 
-<img src="../assets/images/projects/helmet/admin.png"
-class="project-image">
+</div>
 
-<div class="project-content">
+<!-- ADMIN & ANALYTICS -->
+<div class="screenshot-category">
 
+<div class="category-header">
+<i class="fas fa-chart-line"></i>
+<div>
+<h4>Admin &amp; Analytics</h4>
+<span>Tools for verifying reports and running the platform</span>
+</div>
+</div>
+
+<div class="row g-4">
+
+<div class="col-lg-4 col-md-6">
+<div class="browser-frame">
+<div class="browser-bar"><span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span></div>
+<img src="../assets/images/projects/helmet/admin.png" class="project-image" alt="Admin dashboard">
+</div>
+<div class="screenshot-caption">
 <h4>Admin Dashboard</h4>
-
-<p>
-Manage users, reports, products, and system operations.
-</p>
-
+<p>Central control panel for managing users, reports, products, and system activity.</p>
 </div>
-
-</div>
-
 </div>
 
 <div class="col-lg-4 col-md-6">
+<div class="browser-frame">
+<div class="browser-bar"><span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span></div>
+<img src="../assets/images/projects/helmet/adminverification.png" class="project-image" alt="Admin report verification">
+</div>
+<div class="screenshot-caption">
+<h4>Report Verification</h4>
+<p>Admins review flagged reports and matches before they're confirmed, guarding against false claims.</p>
+</div>
+</div>
 
-<div class="project-card">
-
-<img src="../assets/images/projects/helmet/analytics.png"
-class="project-image">
-
-<div class="project-content">
-
+<div class="col-lg-4 col-md-6">
+<div class="browser-frame">
+<div class="browser-bar"><span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span></div>
+<img src="../assets/images/projects/helmet/analytics.png" class="project-image" alt="Analytics dashboard">
+</div>
+<div class="screenshot-caption">
 <h4>Analytics</h4>
-
-<p>
-Visual statistics showing reports, users, and sales.
-</p>
-
+<p>Visual statistics covering reports, active users, and marketplace sales.</p>
+</div>
 </div>
 
 </div>
 
 </div>
-
-</div>
-
-</div>
-
-<div class="col-lg-4 col-md-6">
-
-    <div class="project-card">
-
-        <img src="../assets/images/projects/helmet/matches.png"
-             class="project-image"
-             alt="Helmet Matches">
-
-        <div class="project-content">
-
-            <h4>Helmet Matches</h4>
-
-            <p>
-                Displays potential matches between lost and found helmet reports, helping users recover their belongings faster.
-            </p>
-
-        </div>
-
-    </div>
-
-</div>
-
-<div class="col-lg-4 col-md-6">
-
-    <div class="project-card">
-
-        <img src="../assets/images/projects/helmet/matchmessage.png"
-             class="project-image"
-             alt="Match Notification">
-
-        <div class="project-content">
-
-            <h4>Match Notification</h4>
-
-            <p>
-                Automatically notifies users when the system identifies a possible match between a lost and a found helmet.
-            </p>
-
-        </div>
-
-    </div>
-
-</div>
-<div class="col-lg-4 col-md-6">
-
-    <div class="project-card">
-
-        <img src="../assets/images/projects/helmet/checkout.png"
-             class="project-image"
-             alt="Checkout">
-
-        <div class="project-content">
-
-            <h4>Checkout</h4>
-
-            <p>
-                Complete purchases securely with an organized checkout process and order summary.
-            </p>
-
-        </div>
-
-    </div>
 
 </div>
 
 </section>
+
 <!--============================
         TECHNOLOGY STACK
 =============================-->
@@ -1064,7 +1221,150 @@ Application Flow
 
 </section>
 
+<!--============================
+    CHALLENGES & LEARNINGS
+=============================-->
 
+<section class="py-5">
+
+<div class="container">
+
+<div class="text-center mb-5" data-aos="fade-up">
+
+<h6 class="section-subtitle">
+
+CHALLENGES &amp; LEARNINGS
+
+</h6>
+
+<h2 class="section-title">
+
+Problems Worth Solving Carefully
+
+</h2>
+
+<p class="about-text">
+A few of the harder decisions made while building the system, and how they were resolved.
+</p>
+
+</div>
+
+<div class="row g-4">
+
+<div class="col-lg-4" data-aos="fade-up">
+
+<div class="challenge-card">
+
+<div class="challenge-row">
+<i class="fas fa-triangle-exclamation"></i>
+<div>
+<span class="row-label">Challenge</span>
+<p>Verifying that someone reporting a "found" helmet actually has it, without an in-person inspection.</p>
+</div>
+</div>
+
+<div class="solution-row">
+<i class="fas fa-circle-check"></i>
+<div>
+<span class="row-label">Solution</span>
+<p>Combined QR Code scanning with OCR serial-number recognition, so an ownership claim is checked against two independent data points instead of one.</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+<div class="challenge-card">
+
+<div class="challenge-row">
+<i class="fas fa-triangle-exclamation"></i>
+<div>
+<span class="row-label">Challenge</span>
+<p>Lost and found reports piling up with no easy way for either side to find each other.</p>
+</div>
+</div>
+
+<div class="solution-row">
+<i class="fas fa-circle-check"></i>
+<div>
+<span class="row-label">Solution</span>
+<p>Built an automatic matching system that compares report details and notifies both users the moment a likely match appears.</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+
+<div class="challenge-card">
+
+<div class="challenge-row">
+<i class="fas fa-triangle-exclamation"></i>
+<div>
+<span class="row-label">Challenge</span>
+<p>Keeping the admin side manageable as reports, users, and marketplace orders grow.</p>
+</div>
+</div>
+
+<div class="solution-row">
+<i class="fas fa-circle-check"></i>
+<div>
+<span class="row-label">Solution</span>
+<p>Centralized everything into a single admin dashboard with a verification queue, user management, and analytics in one place.</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!--============================
+        CLOSING CTA
+=============================-->
+
+<section class="case-study-cta">
+
+<div class="container">
+
+<h2 class="section-title">Want to see how it's built?</h2>
+
+<p>The full source code, database schema, and setup instructions are available on GitHub.</p>
+
+<div class="mt-4">
+
+<a href="https://github.com/Kcishen"
+target="_blank"
+class="btn btn-primary">
+
+<i class="bi bi-github"></i>
+
+View on GitHub
+
+</a>
+
+<a href="../index.html"
+class="btn btn-outline-light ms-3">
+
+Back to Portfolio
+
+</a>
+
+</div>
+
+</div>
+
+</section>
 
 <!-- Bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
